@@ -1,0 +1,92 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.root {
+  box-sizing: border-box;
+}
+
+*,
+::before ::after {
+  box-sizing: inherit;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  line-height: 1.6em;
+  margin-right: 40px;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav .nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+nav .nav-link:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.card-img-top {
+  height: 280px;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .contact {
+  background: #f2f2f2;
+  margin-bottom: 64px;
+  margin-top: 70px;
+  padding: 10px 30px;
+}
